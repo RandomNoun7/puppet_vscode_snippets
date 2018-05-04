@@ -1,0 +1,21 @@
+{
+    "name": "puppet-vscode-snippets",
+    "displayName": "puppet_vscode_snippets",
+    "description": "Puppet related code snippets.",
+    "version": "0.0.1",
+    "publisher": "bhurt",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "ruby",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
