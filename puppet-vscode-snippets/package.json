@@ -1,11 +1,15 @@
 {
-    "name": "puppet-vscode-snippets",
-    "displayName": "puppet_vscode_snippets",
+    "name": "puppet-snippets",
+    "displayName": "Puppet Snippets",
     "description": "Puppet related code snippets.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "bhurt",
+    "repository": {
+        "type": "GIT",
+        "url": "https://github.com/RandomNoun7/puppet_vscode_snippets"
+    },
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Snippets"
@@ -14,7 +18,11 @@
         "snippets": [
             {
                 "language": "ruby",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/ruby.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
             }
         ]
     }

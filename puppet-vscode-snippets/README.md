@@ -1,65 +1,35 @@
-# puppet-vscode-snippets README
+# Puppet Snippets
 
-This is the README for your extension "puppet-vscode-snippets". After writing up a brief description, we recommend including the following sections.
+An extension for adding Puppet development related code snippets to Visual Studio Code.
 
-## Features
+This extension provides code snippets that you might find useful when working on puppet code.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Available Snippets
 
-For example if there is an image subfolder under your extension project workspace:
+### Markdown
 
-\!\[feature X\]\(images/feature-x.png\)
+#### Add a ticket link to the Puppet Jira instance
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Insert a ticket link.](./images/markdown_add_ticket_snippet.gif)
 
-## Requirements
+* Note: Markdown is a special file type for VSCode. To get the suggestions to
+pop up automatically you may need to add a setting to your user settings file.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+  ```
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  }
+  ```
+  If you  don't want to add a user setting you may need to use the ```ctrl+space ``` hotkey.
 
-## Extension Settings
+### Ruby
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+#### Add a ```do``` block. With or without parameters
 
-For example:
+![Add a do block](./images/ruby_add_do_blocks.gif)
 
-This extension contributes the following settings:
+## Maintainers
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Bill Hurt
+- [@RandomNoun7](https://twitter.com/RandomNoun7)
+- [Github](https://github.com/RandomNoun7/puppet_vscode_snippets)
